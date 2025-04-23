@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshul Sharma - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      background: linear-gradient(to right, #fdf6f0, #f6e6f4);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left : 1.5rem;
+    }
+
+    li {
+      margin-bottom : 0.5rem;
+    }
+
+    section {
+      background: #ffffffcc;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width : 1000px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+    }
+
+    h2 {
+      color: #6a1b9a;
+      border-bottom : 2px solid #a558bc;
+      display: inline-block;
+      padding-bottom : 5px;
+      margin-bottom : 1rem;
+    }
+
+    #hero h2 {
+      color: #e1cce3;
+      font-size: 2.2rem;
+    }
+
+    .project-card, .education-card {
+      background: #f4e5f8;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom : 1rem;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .project-card:hover, .education-card:hover {
+      background: #e1cce3;
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body>
+
+<header class="sticky-header">
+  <nav>
+    <h1>Anshul Sharma</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#internships">Internships</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="hero">
+  <h2>Hi, I'm Anshul Sharma</h2>
+  <p>Software Engineer | Full Stack Developer | AI Enthusiast</p>
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/anshul-sharma-762b8127a" target="_blank">LinkedIn</a>
+    <a href="https://github.com/AnshulSharma2005" target="_blank">GitHub</a>
+  </div>
+</section>
+
+<section id="about" class="hidden">
+  <h2>About Me</h2>
+  <p><strong>Career Objective:</strong> Passionate about software engineering and AI, I aim to create impactful, scalable solutions while continuously improving my technical and leadership skills.</p>
+  <p>I am currently pursuing B.Tech in Computer Science at PSIT (AKTU) with a focus on full-stack development and AI-based system design.</p>
+</section>
+
+<section id="education" class="hidden">
+  <h2>Education</h2>
+  <div class="education-card">
+    <h3>Bachelor of Technology (B.Tech), Computer Science and Engineering</h3>
+    <p><strong>Institute:</strong> Pranveer Singh Institute of Technology, Kanpur</p>
+    <p><strong>Duration:</strong> 2022 - Present</p>
+    <p><strong>Current CGPA:</strong> 8.65</p>
+  </div>
+  <div class="education-card">
+    <h3>12th Grade </h3>
+    <p><strong>Year:</strong> 2021 - 2022</p>
+    <p><strong>Percentage:</strong> 76.4%</p>
+  </div>
+  <div class="education-card">
+    <h3>10th Grade </h3>
+    <p><strong>Year:</strong> 2019 - 2020</p>
+    <p><strong>Percentage:</strong> 86.16%</p>
+  </div>
+</section>
+
+<section id="skills" class="hidden">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Languages:</strong> Python, JavaScript, C++, C, Java, SQL, PHP, MATLAB (Basics)</li>
+    <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React.js, Node.js, Laravel, Figma</li>
+    <li><strong>Databases:</strong> Firebase, Oracle, SQL, Hadoop, MySQL</li>
+    <li><strong>Software Development:</strong> Data Structures, Algorithms, SDLC</li>
+    <li><strong>Systems:</strong> Unix/Linux, TCP/IP, Distributed Systems</li>
+    <li><strong>Tools:</strong> TensorFlow, OpenCV, REST APIs, Git</li>
+    <li><strong>Domains:</strong> Machine Learning, Information Retrieval, Scalable Systems</li>
+  </ul>
+</section>
+
+<section id="projects" class="hidden">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>NeuralEye (Ongoing)</h3>
+      <p>AI-based smart surveillance system integrating facial recognition, customer counting, and real-time emergency alerts using OpenCV, TensorFlow, and IoT.</p>
+    </div>
+    <div class="project-card">
+      <h3>Self-Defense Pose Recognition</h3>
+      <p>AI model for recognizing self-defense gestures using OpenCV, Mediapipe, and LSTM Neural Networks.</p>
+    </div>
+    <div class="project-card">
+      <h3>Doctor's Appointment System</h3>
+      <p>Full-stack web application using Laravel, MySQL, and JavaScript for efficient online booking and patient management.</p>
+    </div>
+    <div class="project-card">
+      <h3>Online Chat App</h3>
+      <p>Firebase-powered chat application enabling real-time communication across multiple rooms with authentication.</p>
+    </div>
+    <div class="project-card">
+      <h3>Resume Builder</h3>
+      <p>Dynamic tool built to generate user-specific resumes with download/export functionality and clean UI.</p>
+    </div>
+    <div class="project-card">
+      <h3>Face Recognition System</h3>
+      <p>Python-based attendance and access control system using OpenCV and dlib for facial recognition.</p>
+    </div>
+    <div class="project-card">
+      <h3>AI Chatbot</h3>
+      <p>Conversational chatbot built using Python and NLP techniques for intelligent Q&A and customer support.</p>
+    </div>
+    <div class="project-card">
+      <h3>Tic Tac Toe Game</h3>
+      <p>Interactive web-based game developed using JavaScript with logic to play against an AI opponent.</p>
+    </div>
+  </div>
+</section>
+
+<section id="internships" class="hidden">
+  <h2>Internship Experience</h2>
+  <ul>
+    <li><strong>Graphic Design Intern – ADM Education and Welfare Society</strong> (Nov 2024 – Jan 2025)<br>
+      Designed educational and promotional content for various social impact initiatives.<br>
+      <a href="https://drive.google.com/file/d/1la1M1tmKKwXVrQ0PJLI-8hZa7qjWxRjr/view?usp=sharing" target="_blank">View Certificate</a>
+    </li>
+    <li><strong>Full Stack Developer Intern – WorlnWell</strong> (Aug 2023 – Sep 2023)<br>
+      Developed and deployed scalable backend modules using Laravel and REST APIs. Gained hands-on experience with client-server architecture and full-stack integration.<br>
+      <a href="https://drive.google.com/file/d/1XthhAFsw9Csyv_oYIpyQn0Eu1s5_i7cg/view?usp=sharing" target="_blank">View Certificate</a>
+    </li>
+  </ul>
+</section>
+
+<section id="contact" class="hidden">
+  <h2>Contact Me</h2>
+  <p><strong>Email:</strong> <a href="mailto:anshulsharma09082022@gmail.com">anshulsharma09082022@gmail.com</a></p>
+  <p><strong>Phone:</strong> +91 9555785029</p>
+  <p><strong>Location:</strong> Kanpur Nagar, Uttar Pradesh, India</p>
+</section>
+
+<footer>
+  <p>© 2025 Anshul Sharma | Designed with ❤️</p>
+</footer>
+
+</body>
+</html>
