@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("nav a");
@@ -56,3 +57,20 @@ document.addEventListener("DOMContentLoaded", () => {
     type();
   });
   
+=======
+document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section");
+
+    const revealSection = () => {
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight - 100) {
+                section.classList.add("visible");
+            }
+        });
+    };
+
+    window.addEventListener("scroll", revealSection);
+    revealSection();
+});
+>>>>>>> 1ae1df034a0395c6e50e91a8362cb2c302bb3f29
