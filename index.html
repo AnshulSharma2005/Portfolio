@@ -59,6 +59,24 @@
     .project-card:hover, .education-card:hover {
       background: #e1cce3;
       transform: translateY(-5px);
+
+      .internship-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+      .internship-header a {
+        font-size: 0.9rem;
+        color: #6a1b9a;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      
+      .internship-header a:hover {
+        text-decoration: underline;
+      }
     }
   </style>
 </head>
@@ -84,13 +102,21 @@
   <div class="social-links">
     <a href="https://www.linkedin.com/in/anshul-sharma-762b8127a" target="_blank">LinkedIn</a>
     <a href="https://github.com/AnshulSharma2005" target="_blank">GitHub</a>
+    <a href="Anshul_Resume.pdf" target="_blank">Resume</a>
   </div>
 </section>
 
 <section id="about" class="hidden">
   <h2>About Me</h2>
-  <p><strong>Career Objective:</strong> Passionate about software engineering and AI, I aim to create impactful, scalable solutions while continuously improving my technical and leadership skills.</p>
-  <p>I am currently pursuing B.Tech in Computer Science at PSIT (AKTU) with a focus on full-stack development and AI-based system design.</p>
+  <p>
+    Computer Science undergraduate with hands-on experience in full-stack development
+    and AI-driven systems. Skilled in building scalable web applications and
+    data-driven solutions using modern technologies.
+  </p>
+  <p>
+    Currently pursuing B.Tech in Computer Science at PSIT (AKTU), with strong interest
+    in solving real-world problems through technology.
+  </p>
 </section>
 
 <section id="education" class="hidden">
@@ -114,15 +140,14 @@
 </section>
 
 <section id="skills" class="hidden">
-  <h2>Technical Skills</h2>
+  <h2>Skills</h2>
   <ul>
-    <li><strong>Languages:</strong> Python, JavaScript, C++, C, Java, SQL, PHP, MATLAB (Basics)</li>
-    <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React.js, Node.js, Laravel, Figma</li>
-    <li><strong>Databases:</strong> Firebase, Oracle, SQL, Hadoop, MySQL</li>
-    <li><strong>Software Development:</strong> Data Structures, Algorithms, SDLC</li>
-    <li><strong>Systems:</strong> Unix/Linux, TCP/IP, Distributed Systems</li>
-    <li><strong>Tools:</strong> TensorFlow, OpenCV, REST APIs, Git</li>
-    <li><strong>Domains:</strong> Machine Learning, Information Retrieval, Scalable Systems</li>
+    <li><strong>Languages:</strong> C++, Java, Python, SQL, JavaScript</li>
+    <li><strong>Web Development:</strong> HTML, CSS, React.js, Node.js, Laravel</li>
+    <li><strong>Databases:</strong> MySQL, Oracle, Firebase</li>
+    <li><strong>AI / ML:</strong> Python, OpenCV, TensorFlow</li>
+    <li><strong>Tools:</strong> Git, REST APIs, Figma</li>
+    <li><strong>Professional:</strong> Problem Solving, Communication, Team Collaboration</li>
   </ul>
 </section>
 
@@ -130,36 +155,58 @@
   <h2>Projects</h2>
   <div class="projects-container">
     <div class="project-card">
-      <h3>NeuralEye (Ongoing)</h3>
-      <p>AI-based smart surveillance system integrating facial recognition, customer counting, and real-time emergency alerts using OpenCV, TensorFlow, and IoT.</p>
+      <h3>NeuralEye (AI + IoT Smart Surveillance)</h3>
+      <p>Real-time intruder and accident detection system using deep learning
+        and IoT integration with cloud-based alerts.</p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>
     </div>
     <div class="project-card">
       <h3>Self-Defense Pose Recognition</h3>
       <p>AI model for recognizing self-defense gestures using OpenCV, Mediapipe, and LSTM Neural Networks.</p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>
     </div>
     <div class="project-card">
       <h3>Doctor's Appointment System</h3>
-      <p>Full-stack web application using Laravel, MySQL, and JavaScript for efficient online booking and patient management.</p>
+      <p>
+        Full-stack web application enabling online appointment booking with
+        optimized database queries and secure deployment.
+      </p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>
     </div>
     <div class="project-card">
       <h3>Online Chat App</h3>
       <p>Firebase-powered chat application enabling real-time communication across multiple rooms with authentication.</p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>
     </div>
     <div class="project-card">
       <h3>Resume Builder</h3>
       <p>Dynamic tool built to generate user-specific resumes with download/export functionality and clean UI.</p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>
     </div>
     <div class="project-card">
       <h3>Face Recognition System</h3>
       <p>Python-based attendance and access control system using OpenCV and dlib for facial recognition.</p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>
     </div>
     <div class="project-card">
       <h3>AI Chatbot</h3>
-      <p>Conversational chatbot built using Python and NLP techniques for intelligent Q&A and customer support.</p>
+      <p>
+        NLP-based chatbot for intelligent question answering and customer support.
+      </p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>   
     </div>
     <div class="project-card">
       <h3>Tic Tac Toe Game</h3>
       <p>Interactive web-based game developed using JavaScript with logic to play against an AI opponent.</p>
+      <p><strong>Tech:</strong> Python, OpenCV, TensorFlow, Raspberry Pi</p>
+      <a href="https://github.com/AnshulSharma2005/NeuralEye" target="_blank">GitHub</a>
     </div>
   </div>
 </section>
@@ -167,22 +214,44 @@
 <section id="internships" class="hidden">
   <h2>Internship Experience</h2>
   <ul>
-    <li><strong>AI & Data Analytics Intern</strong> (Oct 2025 – Nov 2025)<br>
+
+    <li>
+      <div class="internship-header">
+        <strong>AI & Data Analytics Intern – AICTE–Shell–Edunet</strong>
+        <a href="https://drive.google.com/file/d/1Yr_Q60nhJdmab7k7b6DFubL4eScpkWE3/view"
+           target="_blank">View Certificate</a>
+      </div>
+      <span>(Oct 2025 – Nov 2025)</span><br>
       Completed a 4-week internship focusing on AI, Data Analytics & Green Skills.
       Performed data preprocessing, exploratory analysis, and ML model understanding.
-      Built insights using Python and sustainability-focused data workflows.<br>
-      <a href="https://drive.google.com/file/d/1Yr_Q60nhJdmab7k7b6DFubL4eScpkWE3/view?usp=sharing" target="_blank">View Certificate</a>
+      Built insights using Python and sustainability-focused data workflows.</li>
+
+    <br>
+
+    <li>
+      <div class="internship-header">
+        <strong>Graphic Designer Intern – ADM Education & Welfare Society</strong>
+        <a href="https://drive.google.com/file/d/1la1M1tmKKwXVrQ0PJLI-8hZa7qjWxRjr/view"
+           target="_blank">View Certificate</a>
+      </div>
+      <span>(Dec 2024 – Jan 2025)</span><br>
+      Designed 40+ digital creatives for educational and outreach campaigns.
+      Designed educational and promotional content for various social impact initiatives.
     </li>
-    <li><strong>Graphic Design Intern – ADM Education and Welfare Society</strong> (Nov 2024 – Jan 2025)<br>
-      Designed educational and promotional content for various social impact initiatives.<br>
-      <a href="https://drive.google.com/file/d/1la1M1tmKKwXVrQ0PJLI-8hZa7qjWxRjr/view?usp=sharing" target="_blank">View Certificate</a>
-    </li>
-    <li><strong>Full Stack Developer Intern – WorlnWell</strong> (Aug 2023 – Sep 2023)<br>
-      Developed and deployed scalable backend modules using Laravel and REST APIs. Gained hands-on experience with client-server architecture and full-stack integration.<br>
-      <a href="https://drive.google.com/file/d/1XthhAFsw9Csyv_oYIpyQn0Eu1s5_i7cg/view?usp=sharing" target="_blank">View Certificate</a>
-    </li>
+
+    <br>
+
+    <li>
+      <div class="internship-header">
+        <strong>Full Stack Developer Intern – WorlnWell</strong>
+        <a href="https://drive.google.com/file/d/1XthhAFsw9Csyv_oYIpyQn0Eu1s5_i7cg/view"
+           target="_blank">View Certificate</a>
+      </div>
+      <span>(Aug 2023 – Sep 2023)</span><br>
+      Developed and deployed scalable backend modules using Laravel and REST APIs. Gained hands-on experience with client-server architecture and full-stack integration.</li>
   </ul>
 </section>
+
 
 <section id="contact" class="hidden">
   <h2>Contact Me</h2>
